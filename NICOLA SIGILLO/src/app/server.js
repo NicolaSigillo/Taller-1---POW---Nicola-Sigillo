@@ -22,7 +22,7 @@ app.use(helmet());
 //ROUTES
 app.get("/", (req, res) => {
     res.status(200).send({
-        msg: "Server Runnning:"
+        msg: "API de juegos de mesa en ejecucion"
     })
 });
 app.use("/api", indexRouter);
